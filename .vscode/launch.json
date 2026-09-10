@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Briefly",
+      "request": "launch",
+      "type": "dart",
+      "toolArgs": [
+        "--no-web-resources-cdn",
+        "--dart-define-from-file=.env"
+      ]
+    }
+  ]
+}
